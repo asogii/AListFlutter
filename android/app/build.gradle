@@ -25,7 +25,7 @@ def gitCommits = Integer.parseInt('git rev-list HEAD --count'.execute().text.tri
 def alistVersion = rootProject.file("../alist_version").readLines()[0]
 
 android {
-    namespace "com.github.asogii.alistflutter"
+    namespace "com.github.jing332.alistflutter"
     compileSdkVersion 34
     ndkVersion "25.1.8937393"
 
