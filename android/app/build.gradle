@@ -26,7 +26,7 @@ def alistVersion = rootProject.file("../alist_version").readLines()[0]
 
 android {
     namespace "com.github.jing332.alistflutter"
-    applicationId "com.github.asogii.alistflutter"
+    // applicationId "com.github.asogii.alistflutter"
     compileSdkVersion 34
     ndkVersion "25.1.8937393"
 
