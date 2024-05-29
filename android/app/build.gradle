@@ -95,9 +95,9 @@ android {
             //noinspection GrDeprecatedAPIUsage
             def abiName = output.getFilter(com.android.build.OutputFile.ABI)
             if (abiName == null)
-                output.outputFileName = "AListF-v${variant.versionName}.apk"
+                output.outputFileName = "AsogiiAListF-v${variant.versionName}.apk"
             else
-                output.outputFileName = "AListF-v${variant.versionName}_${abiName}.apk"
+                output.outputFileName = "AsogiiAListF-v${variant.versionName}_${abiName}.apk"
         }
     }
 
