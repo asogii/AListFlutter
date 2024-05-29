@@ -28,7 +28,7 @@
         android:name="com.github.jing332.alistflutter.App"
         android:icon="@mipmap/ic_launcher"
 
-        android:label="AList"
+        android:label="AsogiiAlist"
         android:networkSecurityConfig="@xml/network_security_config"
         android:requestLegacyExternalStorage="true"
         android:roundIcon="@mipmap/ic_launcher"
