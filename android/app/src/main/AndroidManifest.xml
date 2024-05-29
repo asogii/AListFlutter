@@ -25,7 +25,7 @@
         tools:ignore="ScopedStorage" />
 
     <application
-        android:name="com.github.asogii.alistflutter.App"
+        android:name="com.github.jing332.alistflutter.App"
         android:icon="@mipmap/ic_launcher"
 
         android:label="AList"
