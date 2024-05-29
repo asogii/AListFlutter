@@ -62,7 +62,7 @@ class _AppAboutDialogState extends State<AppAboutDialog> {
                 message: S.of(context).copiedToClipboard,
                 duration: const Duration(seconds: 1)));
           },
-          child: const Text("AList"),
+          child: const Text("AsogiiAList"),
         ),
         TextButton(
             onPressed: () {
@@ -74,7 +74,7 @@ class _AppAboutDialogState extends State<AppAboutDialog> {
                   message: S.of(context).copiedToClipboard,
                   duration: const Duration(seconds: 1)));
             },
-            child: const Text("AListFlutter")),
+            child: const Text("AsogiiAListFlutter")),
       ],
     );
   }
